@@ -1,0 +1,520 @@
+.navbar_frame{
+    position: relative;
+   box-sizing: border-box;
+   width: 100%;
+    height: 145px;
+    background-color: rgba(68, 50, 151, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_frame .container{
+position: relative;
+width: 1320px;
+height: 115px;
+
+padding-top: 20px;
+}
+.navbar_frame .container .navbar_top{
+width: 100%;
+height: 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+.navbar_top .nav_search_frame{
+    width: 651px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+   
+}
+.nav_search_frame .search_box{
+    padding: 10px 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search_box .category_list{
+   width: 166px;
+   height: 30px;
+   border-right: 1px solid rgba(214, 214, 214, 1);
+}
+.category_list select{
+    width: 140px;
+    height: 30px;
+    border: none;
+    outline: none;
+
+   color: rgba(4, 30, 66, 1);
+   font-family: jost;
+   font-size: 15px;
+   font-weight: 400px;
+   line-height: 22px;
+   letter-spacing: 0;
+}
+.search_box input{
+   width: 387px;
+   height: 22px;
+
+color: rgba(98, 105, 116, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+outline: none;
+margin-left: 12px;
+
+}
+.nav_search_frame .search_icon_box{
+    width: 50px;
+    height: 50px;
+    border-radius: 0px 6px 6px 0px;
+background: rgba(245, 195, 75, 1);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.navbar_top .nav_top_menu{
+  display: flex;
+  flex-direction: row;  
+  width: 416px;
+    height: 50px;
+    justify-content: space-between;
+   
+}
+.nav_top_menu .top_menu_box{
+    display: flex;
+    flex-direction: row;
+   
+  
+}
+.top_menu_box .box_icon_box{
+    position: relative;
+
+    width: 54.84px;
+height: 50px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 6px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.top_menu_box .box_info_box{
+    width: 69px;
+    height: 43px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    justify-content: flex-end;
+}
+.box_info_box span{
+ color: rgba(255, 255, 255, 1);
+font-family: "Jost";
+font-size: undefinedpx;
+font-weight: 400px;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box_info_box strong{
+color: rgba(255, 255, 255, 1);
+font-family: "Jost";
+font-size: undefinedpx;
+font-weight: 500px;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box_icon_box .baskent_count{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(245, 195, 75, 1);
+    border-radius: 50%;
+    color: rgba(11, 30, 64, 1);
+    font-size: 8px;
+    font-family: jost;
+    font-weight: 700px;
+    line-height: 10px;
+    letter-spacing: 0;
+    text-align: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_frame .container .navbar_bott{
+    margin-top: 20px;
+    border-top: 1px solid #5747a2;
+}
+.navbar_bott .navbar_bott_menu_box{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+.navbar_bott .browse_box{
+    display: flex;
+    flex-direction: row;
+    width: 185px;
+    text-align: center;
+    border-right: 1px solid #5747a2;
+   
+}
+ .browse_box span{
+  width: 190px;
+  height: 30px;
+  color: rgba(255, 255, 255, 1);
+  font-family: jost;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 10px;
+ }
+.browse_box img{
+    width: 20px;
+    height: 18px;
+    margin-top: 4px;
+}
+.navbar_bott_menu_box .navbar_routle_menu{
+    display: flex;
+    flex-direction: row;
+     margin-left: 120px;
+     width: 620px;
+
+}
+.navbar_routle_menu a{
+    font-family: jost;
+    font-size: 16px;
+    font-weight: 400px;
+   color: #fff;
+   margin-left: 10px;
+}
+.navbar_routle_menu a.title{
+color: #f5c34b;
+}
+.sorting_menu span{
+    
+   width: 462px;
+  height: 28px;
+   color: rgba(255, 255, 255, 1);
+
+font-family: "Jost";
+font-size: 15px;
+font-weight: 500;
+margin-left: 10px; 
+
+
+}
+
+
+
+
+.glava{
+width: 100%;
+height: 670px;
+margin-left: 60px;
+margin-top: 50px;
+box-sizing: border-box;
+}
+.glava .secret{
+  width: 1320px;
+height: 625px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+.glava .secret .blue{
+width: 871.2px;
+height: 508px;
+background-color: rgba(0, 83, 246, 1);
+background-image: url(./public/images/images/icons/header_bg.svg);
+box-sizing: border-box;
+padding-top: 100px;
+border-radius: 6px;
+position: relative;
+
+}
+ .glava .blue img{
+  position: absolute;
+  margin-left: 335px;
+}
+.glava .secret .contaner{
+  width: 422px;
+  height: 508px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.glava .contaner .watccon{
+  /* Rectangle 55 */
+width: 422.4px;
+height: 240px;
+border-radius: 6px;
+background: rgba(242, 242, 242, 1);
+display: flex;
+flex-direction: row;
+box-sizing: border-box;
+}
+.glava .watccon .textcon{
+ display: flex;
+ flex-direction: column;
+margin-bottom: 40px;
+ justify-content: center;
+  width: 186px;
+  height: 240px;
+  margin-left: 30px;
+
+}
+  .glava .textcon .starting{
+ /* Starting from $899. */
+width: 180.57px;
+height: 22px;
+color: rgba(0, 83, 246, 1);
+
+font-family: "Jost";
+font-size: 15px;
+font-weight: undefined;
+line-height: 5px;
+letter-spacing: 0%;
+
+}
+.glava .textcon .healt{
+  /* Health Care Monitor */
+width: 225.69px;
+height: 76px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 26px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0%;
+
+}
+.glava .textcon .red{
+  /* Shop Now */
+width: 70px;
+height: 22px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.glava .textcon .shop{
+  border-bottom: 1px solid rgba(4, 30, 66, 1);
+}
+.glava .imgcon img{
+
+  /* image 6 */
+width: 236px;
+height: 240px;
+}
+
+.glava .blue .yellow{
+  width: 104px;
+height: 30px;
+border-radius: 6px;
+padding: 4px 14px 4px 14px;
+margin-left: 15px;
+background-color: rgba(245, 195, 75, 1);
+color: rgba(4, 30, 66, 1);
+font-family: jost;
+
+}
+.glava .blue .big{
+  width: 428px;
+height: 152px;
+margin-top: 100pxpx;
+margin-left: 15px;
+font-family: jost;
+font-size: 55px;
+font-weight: 500px;
+color: rgba(255, 255, 255, 1);
+}
+ .glava .blue .mini{
+  width: 262px;
+height: 56px;
+font-size: 16px;
+font-weight: 500;
+margin-left: 15px;
+color: rgba(255, 255, 255, 1) ;
+margin-top:28px ;
+font-family: jost;
+}
+.glava .mini span{
+ 
+  font-size: 19px;
+}
+.glava .blue .shop{
+  width: 140px;
+height: 52px;
+margin-left: 15px;
+
+gap: 10px;
+padding: 15px 35px 15px 35px;
+margin-top: 30px;
+background-color: rgba(255, 255, 255, 1);
+color: rgba(4, 30, 66, 1);
+border-radius: 6px;
+color: rgba(4, 30, 66, 1);
+box-sizing: border-box;
+font-family: "Jost";
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+.glava .secret .bot{
+  width: 1320px;
+  height: 100px;
+  border-bottom: 1px solid rgba(234, 234, 234, 1);
+  display: flex;
+  flex-direction:row ;
+  justify-content: space-between;
+  margin-top: 20px;
+ 
+}
+.glava .bot .con{
+  width: 185px;
+  height: 77px;
+  margin-left: 15px;
+  margin-top: 3px;
+  font-family: jost;
+  font-size: 15px;
+  color: rgba(98, 105, 116, 1);
+  margin-right: 40px;
+}
+.glava .bot .free{
+  width: 33px;
+  height: 35px;
+  margin-top: 5px;
+  margin-left: 40px;
+  
+ 
+}
+.glava .bot .ship{
+ color: rgba(4, 30, 66, 1);
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 35px;
+  margin-right: 10px;
+}
+.glava .pro{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.glava .pro .products{
+    width: 300px;
+    height: 40px;
+    color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 28px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.glava .pro a{
+   
+width: 131px;
+height: 22px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+text-decoration: none;
+color: inherit ;
+}
+.glava a:hover{
+  border-bottom: 2px solid purple;
+}
+
+
+.glava .secret .line{
+    width: 1320px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.glava .line .cont{
+/* Rectangle 272 */
+width: 142.55px;
+height: 250px;
+margin-top: 20px;
+}
+.glava .cont .tv{
+width: 142.55px;
+height: 150px;
+box-sizing: border-box;
+border: 1px solid rgba(234, 234, 234, 1);
+border-radius: 150px;
+background: rgba(255, 255, 255, 1);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.glava .cont .tvhome{
+    /* info */
+width: 142.55px;
+height: 84px;
+font-size: 18px;
+font-weight: 400;
+font-family: jost;
+text-align: center;
+line-height: 30px;
+letter-spacing: 0.5px;
+
+
+
+}
+
+
+
+
+
+
