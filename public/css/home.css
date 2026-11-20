@@ -1,5 +1,5 @@
 .navbar_frame{
-    position: relative;
+  
    box-sizing: border-box;
    width: 100%;
     height: 145px;
@@ -11,7 +11,9 @@
 .navbar_frame .container{
 position: relative;
 width: 1320px;
-height: 115px;
+height: auto;
+
+
 
 padding-top: 20px;
 }
@@ -195,9 +197,14 @@ text-align: left;
     display: flex;
     flex-direction: row;
      margin-left: 120px;
-     width: 620px;
+     width: 550px;
+     
 
 }
+.navbar_routle_menu .new{
+  margin-left: 30px;
+}
+
 .navbar_routle_menu a{
     font-family: jost;
     font-size: 16px;
@@ -217,7 +224,7 @@ color: #f5c34b;
 font-family: "Jost";
 font-size: 15px;
 font-weight: 500;
-margin-left: 10px; 
+margin-left: 20px; 
 
 
 }
@@ -231,6 +238,9 @@ height: 670px;
 margin-left: 60px;
 margin-top: 50px;
 box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 .glava .secret{
   width: 1320px;
@@ -238,6 +248,8 @@ height: 625px;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
+box-sizing: border-box;
+margin-right: 130px;
 
 }
 .glava .secret .blue{
@@ -514,7 +526,660 @@ letter-spacing: 0.5px;
 }
 
 
+/* uchinchi qism */
+
+
+
+.topselling{
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+ box-sizing: border-box;
+  margin-top: 400px;
+  
+}
+.topselling .containeri{
+  
+width: 1320px;
+height: auto;
+}
+.containeri .topline{
+  width: 1320px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.topline span{
+  /* Top Selling Products */
+width: 349px;
+height: 40px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 28px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.topline a{
+  /* Shop Now */
+width: 56px;
+height: 22px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.topline a:hover{
+  border-bottom: 2px solid purple;
+}
+.containeri .botline{
+  width: 1320px;
+  height: 460px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.botline .next1{
+  /* next 1 */
+width: 19.61px;
+height: 22px;
+margin-bottom: 100px;
+cursor: pointer;
+}
+.botline .next2{
+  /* next 1 */
+width: 19.61px;
+height: 22px;
+transform: rotate(-180.00deg);
+margin-bottom: 100px;
+cursor: pointer;
+}
+
+
+.botline .prodac{
+    width: 1320px;
+    height: 460px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 30px;
+
+}
+
+.bigi .imgi{
+  position: relative;
+  box-sizing: border-box;
+  width: 253px;
+  height: 230px;
+  cursor: pointer;
+}
+
+.imgi .hov{
+  display: none;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+.hov button{
+ width: 260px;
+ height: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ outline: none;
+ border: none;
+ border-radius: 6px;
+box-shadow: 0px 5px 20px 0px rgba(0, 83, 246, 0.1);
+background: rgba(0, 83, 246, 1);
+font-family: jost;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+color: #ffffff;
+line-height: 22px;
+
+gap: 10px;
+padding: 15px 35px 15px 35px;
+
+
+}
+
+.imgi:hover .hov{
+  position: absolute;
+  display: flex;
+}
 
 
 
 
+
+.bigi .bottom{
+    width: 310px;
+    height: 150px;
+    line-height: 32px;
+    margin-top: 30px;
+  
+
+}
+.bottom .samsung{
+    width: 62px;
+    height: 22px;
+    font-size: 13px;
+    color: rgba(98, 105, 116, 1);
+    font-family: jost;
+   
+   
+  
+}
+.bottom .taxt{
+    /* Shure SRH440 Professional Studio Headphones */
+width: 262.13px;
+height: 56px;
+color: rgba(4, 30, 66, 1);
+box-sizing: border-box;
+font-family: "Jost";
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.bottom .raqam{
+    /* 3,014 reviews */
+width: 83px;
+height: 22px;
+color: rgba(98, 105, 116, 1);
+font-family: jost;
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}.bottom .deng{
+    width: 100px;
+    height: 30px;
+      font-family: jost;
+}
+.deng .dollar{
+    /* $32.50 */
+width: 60px;
+height: 26px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 18px;
+font-weight: 500;
+
+
+text-align: left;
+}
+.deng .minus{
+    /* $45 */
+width: 25px;
+height: 22px;
+color: rgba(98, 105, 116, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: line-through;
+}
+
+
+
+
+.containeri .uzn{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.uzn .emoji{
+  width: 160px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.emoji .bir{
+  display: flex;
+  flex-direction: row;
+}
+ .bir .ikki{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ align-items: center;
+
+ border-radius: 50%;
+}
+.ikki .uch{
+  width: 4px;
+  height: 4px;
+  background-color: rgba(17, 33, 55, 1);
+  border-radius: 50%;
+ 
+}
+.emoji img{
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.bir .ikki.active{
+  border: 2px solid rgba(17, 33, 55, 1);
+  border-radius: 50%;
+  
+ 
+ }
+
+
+ /* mem */
+ .topselling .mem{
+  width: 100%px;
+  height: 120px;
+  background-color: rgba(229, 237, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 83, 246, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+  /* Members get free shipping* with no order minimum!*Restrictions apply.Try free 30-day trial */
+
+margin-top: 100px;
+ }
+ .containeri .headphon{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+ 
+ }
+
+  .toplinee{
+  width: 100%;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 150px;
+ }
+ .toplinee span{
+  /* Headphones */
+width: 274.33px;
+height: 40px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 28px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+
+ }
+ .toplinee a{
+  /* Shop Now */
+width: 56px;
+height: 22px;
+color: rgba(4, 30, 66, 1);
+
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+ }
+  .toplinee a:hover{
+    border-bottom: 2px solid purple;
+  }
+ .headphon .ichi{
+  width: 1320px;
+  height: 450px;
+  margin-top: 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+
+ }
+ .ichi .appline{
+ position: relative;
+  width: 665px;
+  height: 368px;
+  background-color: rgba(243, 245, 246, 1);
+  border-radius: 6px;
+ 
+ 
+  
+ }
+ .appline img{
+position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 300px;
+  margin-top: 20px;
+ }
+ .appline p{
+  /* Now in moon gray */
+width: 139.53px;
+height: 22px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .appline span{
+  /* Beats Studio Buds */
+width: 161.81px;
+height: 76px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 26px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .appline a{
+  
+width: 70px;
+height: 22px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+ }
+ .appline a:hover{
+  border-bottom: 2px solid purple;
+ }
+ .appline .qora{
+  width: 165px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 40px;
+  
+  
+ }
+
+
+
+
+ .ichi .shef{
+  width: 630px;
+  height: 380px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+
+
+ }
+ .shef .ear{
+
+width: 293.14px;
+height: 170px;
+border-radius: 6px;
+background: rgba(243, 245, 246, 1);
+box-sizing: border-box;
+position: relative;
+display: flex;
+justify-content: space-between;
+
+
+ }
+ 
+.ear img{
+margin-left: 180px;
+margin-top: 30px;
+position: absolute;
+cursor: pointer;
+}
+.ear .kak{
+width: 90px;
+height: 70px;
+margin-top: 30px;
+margin-left: 30px;
+
+
+}
+.kak p{
+  font-family: jost;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600px;
+color: rgba(4, 30, 66, 1);
+}
+.kak span{
+  color: rgba(98, 105, 116, 1);
+  font-family: jost;
+  
+}
+.shef .eara{
+  background-color: rgba(243, 245, 246, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 293.14px;
+height: 170px;
+border-radius: 6px;
+box-sizing: border-box;
+position: relative;
+}
+.eara img{
+  position: absolute;
+cursor: pointer;
+margin-top: 80px;
+margin-left: 120px;
+
+}
+.eara p{
+  font-family: jost;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600px;
+color: rgba(4, 30, 66, 1);
+margin-left: 27px;
+margin-top: 20px;
+  
+}
+.eara span{
+  color: rgba(98, 105, 116, 1);
+  font-family: jost;
+  margin-left: 27px;
+}
+/* to'rtinchi qism */
+
+
+
+  .eng .tvss{
+    width: 100%;
+    height: 650px;
+    margin-top: 900px;
+    display: flex;
+    justify-content: center;
+  }
+  .tvss .tvbox{
+    width: 1320px;
+    height: auto;
+    
+    
+    
+  }
+  .tvss .tvbotline .topline{
+    width: 1320px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+  }
+  .ser a{
+    margin-left: 30px;
+  }
+
+
+
+  .matnn p{
+    /* brand */
+
+width: 62px;
+    height: 22px;
+    font-size: 13px;
+    color: rgba(98, 105, 116, 1);
+    font-family: jost;
+
+  }
+  .matnn a{
+    width: 262.13px;
+height: 56px;
+color: rgba(4, 30, 66, 1);
+box-sizing: border-box;
+font-family: "Jost";
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+  }
+  .tvbox .kattaline{
+    width: 1320px;
+  height: 460px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  }
+  .star .raqam{
+    font-family: jost;
+    color: rgba(98, 105, 116, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+  }
+.uzne{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.uzne .emojie{
+  width: 160px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.emojie .bire{
+  display: flex;
+  flex-direction: row;
+}
+ .bire .ikkie{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ align-items: center;
+
+ border-radius: 50%;
+}
+.ikkie .uche{
+  width: 4px;
+  height: 4px;
+  background-color: rgba(17, 33, 55, 1);
+  border-radius: 50%;
+ 
+}
+.emojie img{
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.bire .ikkie.active{
+  border: 2px solid rgba(17, 33, 55, 1);
+  border-radius: 50%;
+  
+ 
+ }
+
+
+  
+
+  
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+ 
