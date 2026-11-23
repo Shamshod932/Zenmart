@@ -1168,18 +1168,487 @@ text-align: left;
  }
 
 
-  
+
+ /* final */
+
+
+ .broo{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+ .broo .bluebig{
+   background-image: url(../images/images/icons/event_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:600px;
+  background-position: center;
+  margin-top: 60px;
+  display:flex ;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+ .bluebig .blueimg{
+  width: 1320px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
 
   
-
-
-
  
+ }
 
+ .blueimg .dealsline{
+  width: 320px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  
+ }
+  
+ .dealsline .ortaline{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+ }
+
+.dealsline .topdel{
+width: 304.19px;
+height: 40px;
+color: rgba(255, 255, 255, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 28px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .birline p{
+ font-family: jost;
+ font-size: 28px;
+ font-weight: 500;
+color: #ffffff;
+
+ }
+
+ .ikkiline p{
+ font-family: jost;
+ font-size: 28px;
+ font-weight: 500;
+color: #ffffff;
+
+ }
+
+ .uchline p{
+ font-family: jost;
+ font-size: 28px;
+ font-weight: 500;
+color: #ffffff;
+
+ }
+
+ .tortline p{
+ font-family: jost;
+ font-size: 28px;
+ font-weight: 500;
+color: #ffffff;
+
+ }
+
+ .birline span{
+  font-family: jost;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+ }
+
+ .ikkiline span{
+  font-family: jost;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+ }
+
+ .uchline span{
+  font-family: jost;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+ }
+
+ .tortline span{
+  font-family: jost;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+ }
  
+ .dealsline .raqamlar{
+  width: 300px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+ .dealsline .showmore{
+  /* Large-Button-Radius-60 */
+width: 141.79px;
+height: 52px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-top: 20px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 1);
+border-radius: 6px;
+background: rgba(255, 255, 255, 1);
+ }
 
+ .showmore span{
+  /* Shop Now */
+width: 75px;
+height: 22px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+ }
+ .iconnext img{
+  margin-top: 170px;
+  
+  color: #ffffff;
+ }
+
+ .blueimg .jora{
+  width: 870px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+
+ }
+ .jora .telev{
+/* Rectangle 261 */
+width: 205.28px;
+height: 392px;
+box-sizing: border-box;
+border-bottom: 1px solid rgba(234, 234, 234, 1);
+border-right: 1px solid rgba(234, 234, 234, 1);
+border-top: 1px solid rgba(234, 234, 234, 1);
+border-radius: 6px;
+background: rgba(255, 255, 255, 1);
+ }
+ .jora .telev .rasmm{
+  margin-left: 16px;
+ }
+
+ .jora .telev .matnn{
+  margin-left: 16px;
+ }
+ .blueimg .iconnextt{
+  margin-left: 20px;
+   margin-top: 170px;
+ }
+
+ .finish{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+ .finish .icgifinish{
+  width: 1320px;
+  height: 340px;
+
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid  rgba(234, 234, 234, 1);
+ }
+ .icgifinish .bratt{
+  width: 300px;
+  height: 220px;
+ }
+ .bratt .contactus{
+  /* Contact Us */
+width: 100.94px;
+height: 26px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+ }
+.bratt .phonecal{
+margin-top: 30px;
+}
+
+.bratt .phonecal span{
+margin-bottom: 20px;
+width: 209px;
+height: 22px;
+color: rgba(4, 30, 66, 1);
+margin-left: 20px;
+font-family: "Jost";
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.bratt .phonecal p{
+ margin-top: 10px;
+width: 144.88px;
+height: 22px;
+color: rgba(4, 30, 66, 1);
+margin-left: 60px;
+font-family: "Jost";
+font-style: Regular;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.phonecal img{
+
+  
+width: 35.63px;
+height: 30px;
+}
+
+.bratt .emaill{
+margin-top: 30px;
+}
+.bratt .emaill span{
+margin-bottom: 20px;
+width: 209px;
+height: 22px;
+color: rgba(4, 30, 66, 1);
+margin-left: 20px;
+font-family: "Jost";
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.bratt .emaill p{
+ margin-top: 10px;
+width: 144.88px;
+height: 22px;
+color: rgba(4, 30, 66, 1);
+margin-left: 60px;
+font-family: "Jost";
+font-style: Regular;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.bekk{
+  /* 3 */
+width: 210px;
+height: 246.1px;
+
+display: flex;
+flex-direction: column;
+}
+
+.bekk p{
+
+width: 90.94px;
+height: 26px;
+color: rgba(4, 30, 66, 1);
+font-family: "Jost";
+
+font-size: 17px;
+font-weight: 500;
+line-height: 30px;
+
+
+}
+.bekk span{
+  /* +(1) 123 456 7890 */
+width: 144.88px;
+height: 22px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.iconapple{
+  width: 155px;
+  height: 200px;
+  line-height: 48px;
+}
+
+.iconapple img{
+  /* apple 1 */
+width: 24.28px;
+height: 16px;
+}
+.iconapple i{
+  margin-left: 5px;
+}
+.iconapple .appss{
+  /* Mobile Apps */
+width: 154.8px;
+height: 26px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.iconapple .miniicon{
+  /* +(1) 123 456 7890 */
+width: 144.88px;
+height: 22px;
+color: rgba(4, 30, 66, 1);
+margin-left: 10px;
+font-family: "Jost";
+font-style: Regular;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.inception{
+  margin-top: 130px;
+  line-height: 60px;
+}
+.inception span{
+ /* We accept */
+width: 110px;
+height: 26px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footerbottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+ .footerbottom .footermain{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1320px;
+height: auto;
+margin-top: 30px;
+
+ }
+ .footermain .footerbottomleft{
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 50px;
  
+  
+ }
+
+  .footermain .footerbottomleft span{
+    /* © 2022 Zenmart. All Rights Reserved */
+width: 228px;
+height: 40px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+  }
+  .footerbottom .footerbottomright{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+   
+  }
+   .footerbottomright .footersellect{
+    border: 1px solid rgba(234, 234, 234, 1);
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: rgb(234, 234, 234);
+    padding: 10px 20px;
+    /* currency */
+width: 187.77px;
+height: 40.1px;
+
+   }
+
+    .footerbottomright .footersellect span{
+      font-family: jost;
+      font-size: 14px;
+      font-weight: 400px;
+      color: (rgba(98, 105, 116, 1));
+    }
+    .footerbottomright .footersellect select{
+      border: none;
+      outline: none;
+      font-family: jost;
+      font-size: 16px;
+      font-weight: 500px;
+      color: rgba(4, 30, 66,);
+      background-color: rgb(234, 234, 234);
+    }
 
 
 
- 
+
+    
