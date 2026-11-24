@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Redaction+50:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+ <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
+    />
 </head>
 <body>
     <div class="eng">
@@ -492,9 +496,9 @@
 
                          <div class="iconnext"><img src="./public/images/images/icons/next.svg" alt=""></div>
 
-                         <div class="jora">
+                         <div class="swiper">
 
-                 <div class="telev">
+                 <div class="swiper-telev">
                 <div class="rasmm"> <img src="./public/images/images/products/sony_notebook.png" alt=""></div>
                 <div class="matnn"><p>SONY</p> <br><a href="">SAMSUNG Chromebook<br>4+15.6" intel...</a> <br>
                      <span class="star"> <img src="./public/images/images/icons/review.svg" alt=""> <img src="./public/images/images/icons/review.svg" alt=""> <img src="./public/images/images/icons/review.svg" alt=""> <img src="./public/images/images/icons/review.svg" alt=""> <img src="./public/images/images/icons/review.svg" alt="">  <span class="raqam"> 3,014 reviews</span></span><br>
@@ -502,7 +506,7 @@
                 </div>
             </div>
 
-            <div class="telev">
+            <div class="swiper-telev">
                 <div class="rasmm"> <img src="./public/images/images/products/sony_playstation.png" alt=""></div>
                 <div class="matnn"><p>SONY</p> <br><a href="">Sony PlayStation 5 Video<br>Game Console</a> <br>
                      <span class="star"> <img src="./public/images/images/icons/review.svg" alt=""> <img src="./public/images/images/icons/review.svg" alt=""> <img src="./public/images/images/icons/review.svg" alt=""> <img src="./public/images/images/icons/review.svg" alt=""> <img src="./public/images/images/icons/review.svg" alt="">  <span class="raqam"> 3,014 reviews</span></span><br>
@@ -510,7 +514,7 @@
                 </div>
             </div>
 
-            <div class="telev">
+            <div class="swiper-telev">
                 <div class="rasmm"> <img src="./public/images/images/products/apple_watch.png" alt=""></div>
                 <div class="matnn"><p>EASPORT</p> <br><a href="">Apple Watch Series 5<br>GPS Space Gray-38mm</a> <br>
                      <span class="star"> <img src="./public/images/images/icons/review.svg" alt=""> <img src="./public/images/images/icons/review.svg" alt=""> <img src="./public/images/images/icons/review.svg" alt=""> <img src="./public/images/images/icons/review.svg" alt=""> <img src="./public/images/images/icons/review.svg" alt="">  <span class="raqam"> 3,014 reviews</span></span><br>
@@ -518,7 +522,7 @@
                 </div>
             </div>
 
-            <div class="telev">
+            <div class="swiper-telev">
                 <div class="rasmm"> <img src="./public/images/images/products/canon_camera.png" alt=""></div>
                 <div class="matnn"><p>EASPORT</p> <br><a href="">Canon EOS rebel T100<br>Digital SLR Camera with</a> <br>
                      <span class="star"> <img src="./public/images/images/icons/review.svg" alt=""> <img src="./public/images/images/icons/review.svg" alt=""> <img src="./public/images/images/icons/review.svg" alt=""> <img src="./public/images/images/icons/review.svg" alt=""> <img src="./public/images/images/icons/review.svg" alt="">  <span class="raqam"> 3,014 reviews</span></span><br>
@@ -526,11 +530,12 @@
                 </div> 
             </div>
 
-
             
 
 
-                         </div>
+             </div>
+
+            </div>
                          <div class="iconnextt"><img src="./public/images/images/icons/next.svg" alt="" style="transform: scale(-1);"></div>
 
 
@@ -623,8 +628,32 @@
 
        
 
+<!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
 
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper', {
+        slidesPerView: 3,
+        direction: getDirection(),
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        on: {
+          resize: function () {
+            swiper.changeDirection(getDirection());
+          },
+        },
+      });
 
+      function getDirection() {
+        var windowWidth = window.innerWidth;
+        var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+        return direction;
+      }
+    </script>
 
 
 

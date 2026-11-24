@@ -1337,7 +1337,7 @@ text-align: center;
   color: #ffffff;
  }
 
- .blueimg .jora{
+ .blueimg .swiper{
   width: 870px;
   height: 400px;
   display: flex;
@@ -1346,7 +1346,7 @@ text-align: center;
   margin-left: 20px;
 
  }
- .jora .telev{
+ .swiper .swiper-telev{
 /* Rectangle 261 */
 width: 205.28px;
 height: 392px;
@@ -1357,11 +1357,11 @@ border-top: 1px solid rgba(234, 234, 234, 1);
 border-radius: 6px;
 background: rgba(255, 255, 255, 1);
  }
- .jora .telev .rasmm{
+ .swiper .swiper-telev .rasmm{
   margin-left: 16px;
  }
 
- .jora .telev .matnn{
+ .swiper .swiper-telev .matnn{
   margin-left: 16px;
  }
  .blueimg .iconnextt{
